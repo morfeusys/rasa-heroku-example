@@ -12,4 +12,4 @@ RUN pip3 install sanic-plugins-framework==0.8.2
 
 RUN rasa train nlu
 
-#ENTRYPOINT rasa run --enable-api --port $PORT
+ENTRYPOINT rasa run --enable-api --port $PORT
