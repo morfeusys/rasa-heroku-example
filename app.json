@@ -1,0 +1,5 @@
+{
+  "name": "heroku-rasa-example",
+  "description": "A barebones Rasa installation using Docker",
+  "stack": "container"
+}
